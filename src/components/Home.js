@@ -32,7 +32,8 @@ const Home = () => {
                 </Row>
                 
                 <div className="mt-4">
-                    <h4>Link para código completo</h4>
+                    <h4>Link para código completo no Github</h4>
+                    <p>Ao entrar no repositório do Github, você encontrará uma tutorial de como clonar o projeto para sua máquina e como instalar as depedências para rodar-lo sem problemas</p>
                     <a href="https://github.com/abudluan/rota-das-oficinas" target="_blank"><Button className="btn-dark"><AiFillGithub/> Github</Button></a>
                 </div>
             </Container>
