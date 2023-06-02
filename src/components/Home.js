@@ -1,6 +1,7 @@
 import React from "react";
 import './Home.scss';
 import { Col, Container, Row, Button } from "react-bootstrap";
+import { AiFillGithub } from 'react-icons/ai';
 
 import Logo from '../resources/rota-logo.png';
 import { Link } from "react-router-dom";
@@ -29,6 +30,11 @@ const Home = () => {
                     </Col>
 
                 </Row>
+                
+                <div className="mt-4">
+                    <h4>Link para código completo</h4>
+                    <a href="https://github.com/abudluan/rota-das-oficinas" target="_blank"><Button className="btn-dark"><AiFillGithub/> Github</Button></a>
+                </div>
             </Container>
 
         </section>
