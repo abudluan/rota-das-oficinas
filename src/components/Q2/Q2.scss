@@ -1,0 +1,76 @@
+#q2{
+
+    
+
+    h1{
+        text-align: center;
+        margin-top: 1em;
+        padding-bottom: 0.5em;
+        border-bottom: 2px #ffc107 solid;
+    }
+
+    .game-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      
+        h1 {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+      
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(10, 30px);
+          gap: 2px;
+        }
+      
+        .row {
+          display: flex;
+            border: white 2px solid;
+          
+        }
+      
+        .cell {
+            width: 35px;
+            height: 50px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            margin: -1px;
+      
+          &.alive {
+            background-color: #28a745;
+          }
+      
+          &.dead {
+            background-color: black;
+          }
+        }
+      
+        .generation {
+          margin-top: 20px;
+          font-size: 18px;
+        }
+      
+        .btn {
+          margin-top: 20px;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      
+          
+        }
+
+      }
+
+      .resoluc{
+        h1{
+            margin-top: 2em;
+            border-top: 2px #ffc107 solid;
+            border-bottom: none;
+        }
+      }
+
+}
