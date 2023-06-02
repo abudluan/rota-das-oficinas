@@ -3,6 +3,7 @@ import './Home.scss';
 import { Col, Container, Row, Button } from "react-bootstrap";
 
 import Logo from '../resources/rota-logo.png';
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -16,15 +17,15 @@ const Home = () => {
                 <Row >
 
                     <Col md className="mb-4">
-                        <Button className="btn-warning">Questão 1 - Conversor de números romanos</Button>
+                        <Button as={Link} to="/Q1" className="btn-warning">Questão 1 - Conversor de números romanos</Button>
                     </Col>
 
                     <Col md className="mb-4">
-                        <Button className="btn-warning">Questão 2 - Jogo da vida</Button>
+                        <Button as={Link} to="/Q2" className="btn-warning">Questão 2 - Jogo da vida</Button>
                     </Col>
 
                     <Col md className="mb-4">
-                        <Button className="btn-warning">Questão 3 - Divisor de conta de restaurante</Button>
+                        <Button as={Link} to="/Q3" className="btn-warning">Questão 3 - Divisor de conta de restaurante</Button>
                     </Col>
 
                 </Row>
