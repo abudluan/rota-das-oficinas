@@ -18,15 +18,15 @@ const Home = () => {
                 <Row >
 
                     <Col md className="mb-4">
-                        <Button as={Link} to="/Q1" className="btn-warning">Questão 1 - Conversor de números romanos</Button>
+                        <Button as={Link} to="/Q1" className="btnQuestion">Questão 1 - Conversor de números romanos</Button>
                     </Col>
 
                     <Col md className="mb-4">
-                        <Button as={Link} to="/Q2" className="btn-warning">Questão 2 - Jogo da vida</Button>
+                        <Button as={Link} to="/Q2" className="btnQuestion">Questão 2 - Jogo da vida</Button>
                     </Col>
 
                     <Col md className="mb-4">
-                        <Button as={Link} to="/Q3" className="btn-warning">Questão 3 - Divisor de conta de restaurante</Button>
+                        <Button as={Link} to="/Q3" className="btnQuestion">Questão 3 - Divisor de conta de restaurante</Button>
                     </Col>
 
                 </Row>

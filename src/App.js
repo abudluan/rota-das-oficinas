@@ -6,6 +6,7 @@ import ScrollToTop from './config/ScrollToTop';
 import Home from './components/Home';
 import Q1 from './components/Q1/Q1';
 import Q2 from './components/Q2/Q2';
+import Q3 from './components/Q3/Q3';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route exact path='/' element={<Home/>} />
       <Route exact path='/Q1' element={<Q1/>} />
       <Route exact path='/Q2' element={<Q2/>} />
+      <Route exact path='/Q3' element={<Q3/>} />
       </Routes>
     </Router>
   );
